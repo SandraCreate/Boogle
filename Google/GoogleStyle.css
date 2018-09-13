@@ -1,0 +1,170 @@
+body {
+  margin: 0px;
+}
+.navigation {
+
+  height: 20px;
+  width: 100%;
+  text-align: right;
+
+}
+
+.divinline {
+  height: 20px;
+  width: auto;
+  margin: 5px;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 11px;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.Gimg {
+  width: 15px;
+  height: 15px;
+}
+.Gapp {
+  background-color: #D8D8D8;
+  padding: 5px;
+  display: none;
+}
+
+Gimg:hover + .Gapp {
+  display: block;
+}
+
+#img {
+  margin-left:auto;
+  margin-right: auto;
+  height: 300px;
+  width: auto;
+  text-align: center;
+}
+#image {
+  width: 300px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#indiv {
+  height: 50px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+
+#input {
+  width: 500px;
+  height: 35px;
+  position: auto;
+  border-top: none;
+  border-bottom: 1.5px solid #D8D8D8;
+  border-left: 1px solid #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+}
+#input:hover {
+  box-shadow: 1px 1px 2px 1px LightGrey;
+}
+
+.button {
+  width: 270px;
+  height: 50px;
+  position: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#but1 {
+  width: 150px;
+  height: 30px;
+  margin-right: auto;
+  background-color: #F0F0F0;
+  border: none;
+  font-family: arial;
+  font-weight: bolder;
+  color: #808080;
+}
+
+#but1:hover {
+  box-shadow:1px 1px 2px 1px LightGrey;
+}
+#but2 {
+  width: 100px;
+  height: 30px;
+  margin-right: auto;
+  background-color: #F0F0F0;
+  border: none;
+  font-family: Arial;
+  font-weight: bold;
+  color: #808080;
+}
+
+#but2:hover {
+  box-shadow:1px 1px 2px 1px LightGrey;
+}
+
+.jezik {
+  text-align: center;
+  font-family: Arial;
+  font-size: 11px;
+}
+
+.footer {
+  background-color: #F0F0F0;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 5px;
+  bottom:0;
+  position: fixed;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 10px;
+  text-align: left;
+}
+
+.hrvatska {
+  text-align: left;
+  width: 30px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  color: #808080;
+  font-size: 12px;
+}
+
+.left {
+  display: inline-block;
+  text-align: left;
+}
+
+.right {
+  display: inline-block;
+  text-align: right;
+}
+
+.lijevo {
+  text-align: left;
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #808080;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.desno {
+  width: 50px;
+  margin-top: 5px;
+  color: #808080;
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 5px;
+}
